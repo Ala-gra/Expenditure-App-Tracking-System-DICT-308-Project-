@@ -1,23 +1,23 @@
 Module: Invoice & Receipt Handling
 This command-line interface (CLI) Java program enables users to:
 
-- Generate an invoice for a client with amount and item details
+ Generate an invoice for a client with amount and item details
 
-- Print a payment receipt after accepting payment
+ Print a payment receipt after accepting payment
 
-- Handle invalid input gracefully with helpful prompts
+ Handle invalid input gracefully with helpful prompts
 
-- Display recommended input formats to reduce user error
+ Display recommended input formats to reduce user error
 
 
 Features
-- Robust input validation (e.g., numeric checks)
+ Robust input validation (e.g., numeric checks)
 
-- Clear example prompts to guide user input
+ Clear example prompts to guide user input
 
-- Graceful exception handling for unexpected issues
+ Graceful exception handling for unexpected issues
 
-- Simple, menu-driven interface for quick access
+ Simple, menu-driven interface for quick access
 
 Usage
  Compile
@@ -26,18 +26,18 @@ javac InvoiceReceiptHandler.java
 Run
 java InvoiceReceiptHandler
 
-=== Invoice & Receipt Handler ===
+ Invoice & Receipt Handler 
 1. Generate Invoice
 2. Print Receipt
 3. Exit
 Enter your choice (1-3): 1
 
---- Generating Invoice ---
+Generating Invoice 
 Enter client name (e.g., John Doe): Alice Brown
 Enter item description (e.g., Website Design): Logo Creation
 Enter amount (e.g., 250.50): 300.00
 
---- INVOICE ---
+ INVOICE 
 Client     : Alice Brown
 Item       : Logo Creation
 Amount     : $300.00
